@@ -1,0 +1,15 @@
+.privacy-policy-wrapper h3{
+    margin-bottom: 50px;
+}
+.privacy-policy-wrapper ul{
+    margin-left: 0;
+}
+.privacy-policy-wrapper p, .privacy-policy-wrapper li{
+    font-size: 13px;
+    line-height: 25px;
+}
+.privacy-policy-wrapper h4{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}

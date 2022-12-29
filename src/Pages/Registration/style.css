@@ -1,0 +1,12 @@
+.login-wrapper .col-md-9{
+    width: 70%;
+}
+.login-wrapper .col-md-3{
+    width: 30%;
+}
+
+@media (max-width: 575px){
+    .login-wrapper .col-sm-12{
+        width: 100%;
+    }
+}

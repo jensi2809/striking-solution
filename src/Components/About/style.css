@@ -1,0 +1,38 @@
+/* ABOUT */
+
+.about-img{
+    text-align: center;
+}
+.about-img img{
+    width: 540px;
+    height: 397px;
+}
+.about-wrapper{
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.about-infomain{
+    padding: 70px 0 0;
+}
+.about-content h4{
+    color: #5812A6;
+    font-size: 20px;
+}
+.about-info p, .about-list span{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.about-info p{
+    padding: 15px 0;
+}
+.about-list li{
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+@media (max-width: 991px){
+    .about-img{
+        padding-top: 30px;
+    }
+}

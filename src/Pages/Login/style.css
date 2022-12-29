@@ -1,0 +1,39 @@
+.login-wrapper{
+    padding: 130px 0 60px;
+}
+.user-info input{
+    border: 1px solid #ddd;
+    outline: none;
+    margin-left: 15px;
+    padding: 7px 15px;
+    font-size: 13px;
+    width: 100%;
+}
+.user-info, .remember-info, .sign-in-btn{
+    padding: 15px 0;
+}
+.sign-in-btn{
+    border: 2px solid #1723b1;
+    background: #1723b1;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    transition: all 0.4s linear;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.sign-in-btn:hover{
+    background: #fff;
+    color: #1723b1;
+    border: 2px solid #1723b1;
+}
+
+@media (max-width: 767px){
+    .login-main-wrapper, .user-info input{
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .user-info label{
+        padding-bottom: 10px;
+    }
+}
