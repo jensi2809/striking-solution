@@ -3,6 +3,7 @@ import About from "../../Components/About";
 import Banner from "../../Components/Banner";
 import Services from "../../Components/Services";
 import "./style.css";
+
 const Home = () => {
   return (
     <div className="home-wrapper">
